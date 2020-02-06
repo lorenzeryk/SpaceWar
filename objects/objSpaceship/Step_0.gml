@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+image_index = 0;
 if keyboard_check(ord("Q")) {
 	image_angle -= 5;	
 }
@@ -11,11 +12,13 @@ if keyboard_check(ord("E")) {
 if keyboard_check(ord("W")) {
 	xAcc += Thrust * dcos(image_angle);
 	yAcc += Thrust * -dsin(image_angle);
+	image_index = 1;
 }
 
 if keyboard_check_released(ord("W")) {
 	xAcc = 0;
 	yAcc = 0;
+	image_index = 0;
 }
 
 xVel+= xAcc;

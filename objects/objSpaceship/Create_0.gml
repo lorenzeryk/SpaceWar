@@ -2,6 +2,7 @@
 // You can write your code in this editor
 x = 940;
 y = 700;
+image_index = 0;
 maxYvel = 12;
 maxXvel = 12;
 xVel = 0;
