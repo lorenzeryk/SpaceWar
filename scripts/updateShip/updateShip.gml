@@ -1,10 +1,10 @@
 image_index = 0;
 if keyboard_check(ord("Q")) {
-	image_angle -= 5;	
+	image_angle += 3;	
 }
 
 if keyboard_check(ord("E")) {
-	image_angle += 5;	
+	image_angle -= 3;	
 }
 
 if keyboard_check(ord("R")) {
