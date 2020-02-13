@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "471229b2-c7fc-4712-bd62-317bc15f9ad8",
+            "Value": {
+                "id": "014d70c8-ac3f-45f6-bc01-96f03c169c53",
+                "resourcePath": "scripts\\testShipPhysics\\testShipPhysics.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "66e83011-3607-4418-b775-c298f4392d2a",
             "Value": {
                 "id": "5a911a9c-1c6d-4b35-9b81-ec788519f562",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "9f92b7cd-abf8-4e17-9fae-e6cc90305f8e",
+            "Value": {
+                "id": "1859a5d8-505f-41b6-8cc7-512b5152ddf8",
+                "resourcePath": "views\\9f92b7cd-abf8-4e17-9fae-e6cc90305f8e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9ff12eaf-07ee-4ea8-a110-1a17ddf1f255",
             "Value": {
                 "id": "9027472a-3fe1-4ee8-a0b5-b22818f0c5d7",
@@ -275,7 +291,8 @@
         "33bf3725-6429-437d-a59b-8d69d2201096",
         "16746a80-6625-4fbe-bb5a-bcd2a2fe5a78",
         "997906bf-3ced-47be-9d2b-aae9d3bdbd9a",
-        "37d5779e-90cf-4b24-ae69-9bb27dfe5b5f"
+        "37d5779e-90cf-4b24-ae69-9bb27dfe5b5f",
+        "471229b2-c7fc-4712-bd62-317bc15f9ad8"
     ],
     "tutorial": ""
 }

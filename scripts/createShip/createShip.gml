@@ -11,3 +11,6 @@ numMissles = 5; //missles remaining
 missleCapacity = 5; //missle capacity before reloading
 canShoot = true;
 reload = false;
+runningTest = false;
+testAcceleration = false;
+testDone = false;

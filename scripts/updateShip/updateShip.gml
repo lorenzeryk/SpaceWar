@@ -1,6 +1,7 @@
 xAcc = 0;
 yAcc = 0;
 
+
 //set as sprite without thrust
 image_index = 0;
 //check for rotational inputs
@@ -12,10 +13,17 @@ if keyboard_check(ord("E")) {
 	image_angle -= 3;	
 }
 
-//flip sprite 180 for testing purposes
-if keyboard_check_pressed(ord("R")) {
-	image_angle = image_angle + 180;	
+//run test script
+if keyboard_check_released(ord("T")) {
+	alarm[2] = room_speed * 2;
+	runningTest = true;
+	keyboard_key_press(ord("W"));
 }
+if (alarm[2] == 0 && runningTest) {
+	keyboard_key_release(ord("W"));
+	image_angle += 180;
+}
+
 
 //accelerate ship
 if keyboard_check(ord("W")) {
