@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-//createMissle();
+x = 940;
+y = 600;
+GRAV = 500;

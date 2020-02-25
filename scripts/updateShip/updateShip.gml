@@ -1,26 +1,29 @@
 xAcc = 0;
 yAcc = 0;
+xAccGrav = 0;
+yAccGrav = 0;
 
 //set as sprite without thrust
 image_index = 0;
 //check for rotational inputs
-if keyboard_check(ord("Q")) {
+if keyboard_check(rotateLeftKey) {
 	image_angle += 3;	
 }
 
-if keyboard_check(ord("E")) {
+if keyboard_check(rotateRightKey) {
 	image_angle -= 3;	
 }
 
 //accelerate ship
-if keyboard_check(ord("W")) {
+if keyboard_check(thrustKey) {
 	xAcc = Thrust * dcos(image_angle);
 	yAcc = Thrust * -dsin(image_angle);
 	image_index = 1; //set sprite to have thrust coloring
 }
 
-if (keyboard_check(vk_space) && canShoot) {
-	instance_create_layer(x,y, "Instances", objMissle);
+if (keyboard_check(fireMissleKey) && canShoot) {
+	inst = instance_create_layer(x,y, "Instances", objMissle);
+	createMissle(inst);
 	canShoot = false;
 	alarm[0] = room_speed * 1; //set one second alarm until player can shoot again
 	numMissles--;
@@ -38,9 +41,17 @@ if (alarm[1] == -1) {
 		numMissles = missleCapacity;
 	}
 }
+
+//acceleration from gravity
+rx = x - objStar.x;
+ry = y - objStar.y;
+rmag = sqrt(rx*rx+ry*ry);
+xAccGrav = -objStar.GRAV * rx / (rmag*rmag*rmag);
+yAccGrav = -objStar.GRAV * ry / (rmag*rmag*rmag);
+
 //update velocity and acceleration
-xVel+= xAcc;
-yVel += yAcc;
+xVel+= (xAcc + xAccGrav);
+yVel += (yAcc + yAccGrav);
 x += xVel;
 y += yVel;
 

@@ -1,5 +1,3 @@
-x = 940;
-y = 700;
 maxYvel = 12;
 maxXvel = 12;
 xVel = 0;

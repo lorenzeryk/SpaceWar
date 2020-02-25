@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "6e95b9f8-d9a5-4205-8a38-696b216ba196",
+            "Value": {
+                "id": "814cce70-d025-459b-b75a-802639783419",
+                "resourcePath": "sprites\\sprSpaceship1\\sprSpaceship1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "715c6151-ce1c-498e-ba8a-dc55e57e243f",
             "Value": {
                 "id": "7ed61f55-1964-46cd-ba87-78152f578719",
@@ -135,11 +143,27 @@
             }
         },
         {
+            "Key": "76b163d7-38fc-4951-bb5e-b805f6879794",
+            "Value": {
+                "id": "dc1d191e-e860-4467-a8c7-6f095c8c8fcf",
+                "resourcePath": "sprites\\sprStar\\sprStar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "77c24380-9f8c-432d-a49a-e80e385afaa3",
             "Value": {
                 "id": "277dc9f8-9b2a-4432-a344-df83b7683769",
                 "resourcePath": "views\\77c24380-9f8c-432d-a49a-e80e385afaa3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7a6ddf16-fb80-4778-953e-9d71fcd5cb78",
+            "Value": {
+                "id": "69bd86e8-ff73-4af8-9ad8-0f8a5a0f4514",
+                "resourcePath": "objects\\objStar\\objStar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -239,6 +263,14 @@
             }
         },
         {
+            "Key": "c57c72e3-04cd-4a81-ad9c-f6956595fea6",
+            "Value": {
+                "id": "9428b32b-8b54-4cb6-8aa9-1591b31e3f88",
+                "resourcePath": "objects\\obj_Player2\\obj_Player2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "ee9b5b1b-fb0c-41fd-a23f-a9022d6e5fc0",
@@ -250,7 +282,7 @@
             "Key": "cf4b072f-9bed-4969-88d6-4a1c61439a0c",
             "Value": {
                 "id": "b3790f96-3fac-47d2-bdd1-94c7b3efd316",
-                "resourcePath": "objects\\objSpaceship\\objSpaceship.yy",
+                "resourcePath": "objects\\obj_Player1\\obj_Player1.yy",
                 "resourceType": "GMObject"
             }
         },
