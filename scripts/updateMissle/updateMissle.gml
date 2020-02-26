@@ -1,3 +1,16 @@
+xAccGrav = 0;
+yAccGrav = 0;
+
+
+rx = x - objStar.x;
+ry = y - objStar.y;
+rmag = sqrt(rx*rx+ry*ry);
+xAccGrav = -objStar.GRAV * rx / (rmag*rmag*rmag);
+yAccGrav = -objStar.GRAV * ry / (rmag*rmag*rmag);
+
+xVel += xAccGrav;
+yVel += yAccGrav;
+
 x += xVel;
 y += yVel;
 
