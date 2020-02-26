@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-show_debug_overlay(true);
 createShip();
 x = room_width / 2;
 y = room_height * 5/6;
