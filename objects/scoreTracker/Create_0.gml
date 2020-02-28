@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy();
+player1Score = 0;
+player2Score = 0;
+winningPlayer = "None";

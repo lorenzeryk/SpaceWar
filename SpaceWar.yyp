@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "5c1e3cb1-e35a-42b7-ab9c-0a519d77cbe0",
+            "Value": {
+                "id": "66e27693-707d-462c-853a-e0f26aa39de3",
+                "resourcePath": "rooms\\gameWinnerScreen\\gameWinnerScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "66e83011-3607-4418-b775-c298f4392d2a",
             "Value": {
                 "id": "5a911a9c-1c6d-4b35-9b81-ec788519f562",
@@ -188,6 +196,14 @@
                 "id": "35cdeb75-1290-459d-bf8a-6ae32c5a13a3",
                 "resourcePath": "views\\7d88dae3-d3b7-46ac-a197-1d2108d13577.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "80ce03fe-c713-4716-a0d3-36545b71700b",
+            "Value": {
+                "id": "dc322e30-541f-4796-af3c-451d9cc33bda",
+                "resourcePath": "scripts\\updateScore\\updateScore.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "bead2e48-5562-4bd1-bfd5-1bb364eaf0e9",
+            "Value": {
+                "id": "0c3b4342-3b8b-4afa-a0a5-e0802ef75846",
+                "resourcePath": "objects\\winnerScreen\\winnerScreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c57c72e3-04cd-4a81-ad9c-f6956595fea6",
             "Value": {
                 "id": "9428b32b-8b54-4cb6-8aa9-1591b31e3f88",
@@ -319,6 +343,14 @@
             }
         },
         {
+            "Key": "db46fac6-273f-4417-be60-cae23099892b",
+            "Value": {
+                "id": "a62aa0fd-5462-4f6b-bce7-3e5eeb5863ba",
+                "resourcePath": "objects\\scoreTracker\\scoreTracker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "b4ec76a3-6320-48ec-a3a3-39445f12ffd0",
@@ -339,7 +371,8 @@
         "33bf3725-6429-437d-a59b-8d69d2201096",
         "16746a80-6625-4fbe-bb5a-bcd2a2fe5a78",
         "997906bf-3ced-47be-9d2b-aae9d3bdbd9a",
-        "37d5779e-90cf-4b24-ae69-9bb27dfe5b5f"
+        "37d5779e-90cf-4b24-ae69-9bb27dfe5b5f",
+        "80ce03fe-c713-4716-a0d3-36545b71700b"
     ],
     "tutorial": ""
 }
