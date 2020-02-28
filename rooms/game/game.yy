@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "game",
     "id": "37ff7551-0549-4e69-b793-8b09d49f0377",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -47,7 +47,7 @@
             "id": "34324e0d-85cb-46ca-ac9e-432ec9d7210f",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -66,7 +66,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "a1152350-1554-40cb-b603-346f3d593619",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,

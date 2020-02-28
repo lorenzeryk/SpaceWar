@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0ceb4405-712f-4c20-8435-e78769b371d4",
+            "Value": {
+                "id": "a7fa6e75-2899-48eb-9b8f-a2d547e76208",
+                "resourcePath": "objects\\startText\\startText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e0f568e-bff7-4353-a853-95e0245d5be2",
             "Value": {
                 "id": "ec709022-c80c-4e8a-87e1-0015d09fd02e",
@@ -82,8 +90,16 @@
             "Key": "37ff7551-0549-4e69-b793-8b09d49f0377",
             "Value": {
                 "id": "05860064-c41a-4542-b6ae-4c46e03a0714",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\game\\game.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3b1bf05a-606d-493d-b7db-41c91aa85a93",
+            "Value": {
+                "id": "e4110f48-ae55-493e-ac91-5c48b535a52e",
+                "resourcePath": "sprites\\sprite4\\sprite4.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,6 +199,14 @@
             }
         },
         {
+            "Key": "872fbe14-63ce-48ec-b77d-f9874278ba7f",
+            "Value": {
+                "id": "1a8b40cc-0a16-440b-b40d-0a559cd81831",
+                "resourcePath": "rooms\\startMenu\\startMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8991c691-1b80-4e76-aeca-e822554a5000",
             "Value": {
                 "id": "067b7019-f9a0-4030-b5fe-4678c3cddd49",
@@ -228,6 +252,14 @@
                 "id": "9027472a-3fe1-4ee8-a0b5-b22818f0c5d7",
                 "resourcePath": "views\\9ff12eaf-07ee-4ea8-a110-1a17ddf1f255.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a1152350-1554-40cb-b603-346f3d593619",
+            "Value": {
+                "id": "536640fb-ee69-4fc5-8432-ce612d26d186",
+                "resourcePath": "sprites\\startScreenBackground\\startScreenBackground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
