@@ -1,0 +1,25 @@
+* Updated Winning Screen message
+* Added score system and winning screen
+* Added start screen, updated background, and updated missle size/color
+* updated collision masks and removed test code
+* updated collision masks and removed testing code
+* Added executable
+* Added missle gravity
+* Added secod ship and sun
+* Step
+* moved testing to script
+* Setup physics test
+* Fixed merge error
+*   Merging
+|\  
+| * Updated ship physics and missle reload system
+| * Updated spaceship sprite
+| * Updated rotation
+| * Moved code to scripts
+| * Added Missle Collision
+* | Updated Missle
+|/  
+* Added Missles
+* Added thrust sprite
+* Implimented Ship Movement
+* Initial Commit
