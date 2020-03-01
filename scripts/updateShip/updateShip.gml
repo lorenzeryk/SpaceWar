@@ -27,7 +27,8 @@ if (!obj_Player1.ship.isThrusting && !obj_Player2.ship.isThrusting) {
 	audio_stop_sound(thrustSound);	
 } else {
 	if (!audio_is_playing(thrustSound)) {
-		audio_play_sound(thrustSound, 1, false);	
+		audio_play_sound(thrustSound, 1, false);
+		audio_sound_gain(thrustSound,3, 0);
 	}
 }
 
