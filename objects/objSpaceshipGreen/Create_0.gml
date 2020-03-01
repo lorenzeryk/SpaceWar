@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 createShip();
-//thrustKey = vk_up;
-//rotateLeftKey = vk_left;
-//rotateRightKey = vk_right;
-//fireMissleKey = vk_down;
 parent = noone;
+Thrust = 0.05;
+numMissles = 5; //missles remaining
+missleCapacity = 5; //missle capacity before reloading
+isThrusting = false;

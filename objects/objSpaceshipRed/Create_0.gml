@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 createShip();
-//thrustKey = ord("W");
-//rotateLeftKey = ord("A");
-//rotateRightKey = ord("D");
-//fireMissleKey = ord("S");
 parent = noone;
+Thrust = 0.05;
+numMissles = 5; //missles remaining
+missleCapacity = 5; //missle capacity before reloading
+isThrusting = false;

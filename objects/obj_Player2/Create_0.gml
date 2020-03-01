@@ -16,3 +16,4 @@ thrustKey = vk_up;
 rotateLeftKey = vk_left;
 rotateRightKey = vk_right;
 fireMissleKey = vk_down;
+collision = false;

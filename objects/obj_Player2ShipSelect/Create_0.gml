@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-menu_x = x;
-menu_y = y;
+menu_x = room_width * 1/3 + 100;
+menu_y = room_height * 2/5;
 ship_h = 32;
 
 ship[0] = "Red ship";

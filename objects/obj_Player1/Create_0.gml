@@ -15,3 +15,4 @@ thrustKey = ord("W");
 rotateLeftKey = ord("A");
 rotateRightKey = ord("D");
 fireMissleKey = ord("S");
+collision = false;

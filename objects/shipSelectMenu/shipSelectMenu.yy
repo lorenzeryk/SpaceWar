@@ -5,7 +5,7 @@
     "name": "ShipSelectMenu",
     "eventList": [
         {
-            "id": "4935a2b6-15fa-4ea8-93ad-2c760431c252",
+            "id": "f47ae42b-0367-4d0c-8ce3-9cf5ab2289a0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

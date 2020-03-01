@@ -19,6 +19,16 @@ if keyboard_check(parent.thrustKey) {
 	xAcc = Thrust * dcos(image_angle);
 	yAcc = Thrust * -dsin(image_angle);
 	image_index = 1; //set sprite to have thrust coloring
+	isThrusting = true;
+} else {
+	isThrusting = false;	
+}
+if (!obj_Player1.ship.isThrusting && !obj_Player2.ship.isThrusting) {
+	audio_stop_sound(thrustSound);	
+} else {
+	if (!audio_is_playing(thrustSound)) {
+		audio_play_sound(thrustSound, 1, false);	
+	}
 }
 
 if (keyboard_check(parent.fireMissleKey) && canShoot) {
