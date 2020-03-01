@@ -1,7 +1,7 @@
-if (instance_number(obj_Player1) == 0 && instance_number(obj_Player2) == 0) {
-} else if (instance_number(obj_Player1) == 0) {
+if (instance_number(obj_Player1.ship) == 0 && instance_number(obj_Player2.ship) == 0) {
+} else if (instance_number(obj_Player1.ship) == 0) {
 	scoreTracker.player2Score++;
-} else if(instance_number(obj_Player2) == 0) {
+} else if(instance_number(obj_Player2.ship) == 0) {
 	scoreTracker.player1Score++;
 }
 

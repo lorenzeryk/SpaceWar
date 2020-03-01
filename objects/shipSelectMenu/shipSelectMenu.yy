@@ -1,28 +1,18 @@
 {
-    "id": "db46fac6-273f-4417-be60-cae23099892b",
+    "id": "c92492dc-2436-4ef9-9648-41022ff0769e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "scoreTracker",
+    "name": "ShipSelectMenu",
     "eventList": [
         {
-            "id": "c263cc95-ee3c-4db9-967d-2b564946caf1",
+            "id": "4935a2b6-15fa-4ea8-93ad-2c760431c252",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "db46fac6-273f-4417-be60-cae23099892b"
-        },
-        {
-            "id": "2b2d86e9-a3fd-42fc-940a-94f6dded040d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 27,
-            "eventtype": 9,
-            "m_owner": "db46fac6-273f-4417-be60-cae23099892b"
+            "m_owner": "c92492dc-2436-4ef9-9648-41022ff0769e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

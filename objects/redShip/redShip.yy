@@ -1,34 +1,34 @@
 {
-    "id": "db46fac6-273f-4417-be60-cae23099892b",
+    "id": "175e81f9-57f8-4d6a-9b83-572832f0d54c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "scoreTracker",
+    "name": "redShip",
     "eventList": [
         {
-            "id": "c263cc95-ee3c-4db9-967d-2b564946caf1",
+            "id": "8e68a980-ed76-4ea6-8e07-9b01b49d396c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "175e81f9-57f8-4d6a-9b83-572832f0d54c"
+        },
+        {
+            "id": "d1034268-7373-4a07-80d8-5d290ffb1e4d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "db46fac6-273f-4417-be60-cae23099892b"
-        },
-        {
-            "id": "2b2d86e9-a3fd-42fc-940a-94f6dded040d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 27,
-            "eventtype": 9,
-            "m_owner": "db46fac6-273f-4417-be60-cae23099892b"
+            "m_owner": "175e81f9-57f8-4d6a-9b83-572832f0d54c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "8991c691-1b80-4e76-aeca-e822554a5000",
     "visible": true
 }

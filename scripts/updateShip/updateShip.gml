@@ -6,22 +6,22 @@ yAccGrav = 0;
 //set as sprite without thrust
 image_index = 0;
 //check for rotational inputs
-if keyboard_check(rotateLeftKey) {
+if keyboard_check(parent.rotateLeftKey) {
 	image_angle += 3;	
 }
 
-if keyboard_check(rotateRightKey) {
+if keyboard_check(parent.rotateRightKey) {
 	image_angle -= 3;	
 }
 
 //accelerate ship
-if keyboard_check(thrustKey) {
+if keyboard_check(parent.thrustKey) {
 	xAcc = Thrust * dcos(image_angle);
 	yAcc = Thrust * -dsin(image_angle);
 	image_index = 1; //set sprite to have thrust coloring
 }
 
-if (keyboard_check(fireMissleKey) && canShoot) {
+if (keyboard_check(parent.fireMissleKey) && canShoot) {
 	inst = instance_create_layer(x,y, "Instances", objMissle);
 	createMissle(inst);
 	canShoot = false;

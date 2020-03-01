@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(player1ShipSelect);
+x = 1000;
+y = 800;
+image_angle = 0;
