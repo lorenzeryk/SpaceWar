@@ -7,5 +7,5 @@ inst.y = deltaPostion * -dsin(image_angle) + y;
 deltaV = 12;
 inst.xVel = deltaV * dcos(image_angle) + xVel;
 inst.yVel = deltaV * -dsin(image_angle) + yVel;
-inst.alarm[0] = room_speed * 10;
+inst.alarm[0] = room_speed * 3; //missle time until destruction
 inst.alarm[1] = room_speed * 0.005;

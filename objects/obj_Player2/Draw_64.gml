@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!collision) {
+if (!collision && !obj_Player1.collision) {
 	draw_text(40,120, "Angle: " + string(ship.image_angle));
 	draw_text(40, 140, "X Velocity: " + string(ship.xVel));
 	draw_text(40, 160, "Y Velocity: " + string(ship.yVel));
