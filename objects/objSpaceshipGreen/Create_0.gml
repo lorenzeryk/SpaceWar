@@ -5,4 +5,6 @@ parent = noone;
 Thrust = 0.05;
 numMissles = 5; //missles remaining
 missleCapacity = 5; //missle capacity before reloading
+firingRate = 1;
+reloadTime = 5;
 isThrusting = false;

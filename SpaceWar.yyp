@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "7c659bb4-c37c-4278-bc1a-e2ec71f1bc5c",
+            "Value": {
+                "id": "dcb2c7e2-caf0-42c3-889f-4e00ccf2524b",
+                "resourcePath": "objects\\objSpaceshipGreenHeavy\\objSpaceshipGreenHeavy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d88dae3-d3b7-46ac-a197-1d2108d13577",
             "Value": {
                 "id": "35cdeb75-1290-459d-bf8a-6ae32c5a13a3",
@@ -364,6 +372,14 @@
                 "id": "9027472a-3fe1-4ee8-a0b5-b22818f0c5d7",
                 "resourcePath": "views\\9ff12eaf-07ee-4ea8-a110-1a17ddf1f255.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a057fcf5-d9db-4523-a611-5f88b1401172",
+            "Value": {
+                "id": "ae9c9180-db70-4ac0-8409-1c44835c7d83",
+                "resourcePath": "sprites\\sprHeavyFighterGreen\\sprHeavyFighterGreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -487,11 +503,27 @@
             }
         },
         {
+            "Key": "d60c5b03-064e-41d3-9558-37a73ee534a1",
+            "Value": {
+                "id": "7e576f0f-e94d-45bc-93f2-4b03267b53d3",
+                "resourcePath": "sprites\\sprHeavyFighterRed\\sprHeavyFighterRed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d870a258-89a8-4fcb-a82d-886bf25f47b1",
             "Value": {
                 "id": "547c424b-c992-456a-9ef0-bad6ad4a61fb",
                 "resourcePath": "views\\d870a258-89a8-4fcb-a82d-886bf25f47b1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d9ec9a59-4335-4a7e-b3a0-87af33dd03c4",
+            "Value": {
+                "id": "9858516b-0e3d-4caa-b1f9-4272ca650817",
+                "resourcePath": "objects\\objSpaceshipRedHeavy\\objSpaceshipRedHeavy.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -6,6 +6,8 @@ ship_h = 32;
 
 ship[0] = "Red ship";
 ship[1] = "Green ship";
+ship[3] = "Red Heavy";
+ship[4] = "Green Heavy";
 ships = array_length_1d(ship);
 
 menu_index = 0;

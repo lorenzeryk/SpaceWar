@@ -36,10 +36,10 @@ if (keyboard_check(parent.fireMissleKey) && canShoot) {
 	inst = instance_create_layer(x,y, "Instances", objMissle);
 	createMissle(inst);
 	canShoot = false;
-	alarm[0] = room_speed * 1; //set one second alarm until player can shoot again
+	alarm[0] = room_speed * firingRate; //set alarm until player can shoot again
 	numMissles--;
-	if (numMissles = 0) { //player reload. five second delay
-		alarm[1] = room_speed * 5;
+	if (numMissles = 0) { //player reload. reloadTime delay
+		alarm[1] = room_speed * reloadTime;
 		reload = true;
 	}
 }
