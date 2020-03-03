@@ -1,10 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (!collision && !obj_Player1.collision) {
-	draw_text(40,120, "Angle: " + string(ship.image_angle));
-	draw_text(40, 140, "X Velocity: " + string(ship.xVel));
-	draw_text(40, 160, "Y Velocity: " + string(ship.yVel));
-	draw_text(40, 180, "Missles: " + string(ship.numMissles));
-	draw_text(40, 200, "Player 1 Score: " + string(scoreTracker.player1Score));
-	draw_text(40, 220, "Player 2 Score: " + string(scoreTracker.player2Score));
+	if (ShipSelectMenu.player2Ship == "Red" || ShipSelectMenu.player2Ship == "Red Heavy") {
+		draw_set_color(c_red);	
+	} else draw_set_color(c_lime);
+	draw_text(room_width - 190, 40, "Player 2");
+	draw_text(room_width - 190, 60, "X Velocity: " + string(ship.xVel));
+	draw_text(room_width - 190, 80, "Y Velocity: " + string(ship.yVel));
+	draw_text(room_width - 190, 100, "Missles: " + string(ship.numMissles));
+	draw_text(room_width - 190, 120, "Score: " + string(scoreTracker.player2Score));
 }
